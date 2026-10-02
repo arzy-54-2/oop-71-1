@@ -32,15 +32,15 @@ from abc import ABC, abstractmethod
 # Абстрактный класс
 class Animal(ABC):
     @abstractmethod
-    def move(self):
+    def move(self);
         pass
     @abstractmethod
-    def voce(self):
+    def voce(selt):
         pass
 
 class Dog(Animal):
     def move(self):
-        print('Step')
+        print('Steps')
     def voce(self):
         print("Gaf Gaf")
 class Cat:
